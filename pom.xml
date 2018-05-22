@@ -22,6 +22,19 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+	<distributionManagement>
+<repository>
+<id>java-project-release</id>
+<name>java-project-release</name>
+<url>http://35.231.176.82:8081/repository/java-project-release/</url>
+</repository>
+
+<snapshotRepository>
+<id>java-project-snapshot</id>
+<name>java-project-snapshot</name>
+<url>http://35.231.176.82:8081/repository/java-project-snapshot/</url>
+</snapshotRepository>
+</distributionManagement>
 <build>
 	<plugins>
    	<plugin>
