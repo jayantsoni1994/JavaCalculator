@@ -23,17 +23,14 @@
     </dependency>
   </dependencies>
 	<distributionManagement>
-<repository>
-<id>java-project-release</id>
-<name>java-project-release</name>
-<url>http://35.231.176.82:8081/repository/java-project-release/</url>
-</repository>
-
-<snapshotRepository>
-<id>java-project-snapshot</id>
-<name>java-project-snapshot</name>
-<url>http://35.231.176.82:8081/repository/java-project-snapshot/</url>
-</snapshotRepository>
+  <snapshotRepository>
+    <id>Java_cal_snapshot</id>
+    <url>http://35.231.176.82:8081/nexus/content/repositories/Java_cal_snapshot</url>
+  </snapshotRepository>
+  <repository>
+    <id>Java_cal_release</id>
+    <url>http://35.231.176.82:8081/nexus/content/repositories/Java_cal_release</url>
+  </repository>
 </distributionManagement>
 <build>
 	<plugins>
